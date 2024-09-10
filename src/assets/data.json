@@ -1,0 +1,14 @@
+[
+  {
+    "divisi": "Marketing",
+    "pemasukan": 20000,
+    "pengeluaran": 15000,
+    "bulan": "Januari"
+  },
+  {
+    "divisi": "IT",
+    "pemasukan": 22000,
+    "pengeluaran": 18000,
+    "bulan": "Januari"
+  }
+]
