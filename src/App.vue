@@ -8,15 +8,17 @@ import DarkModeToggle from './components/AllPage/DarkModeToggle.vue'
 
 <template>
   <HeaderComponent />
-  <br />
-  <br />
-  <br />
-  <RouterView />
+  <main class="page-content">
+    <RouterView />
+  </main>
   <FooterComponent />
   <DarkModeToggle />
 </template>
 
 <style scoped>
+.page-content {
+  padding-top: 5rem; /* leave space for fixed header */
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
